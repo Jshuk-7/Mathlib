@@ -3,13 +3,13 @@
 
 namespace mathlib::math
 {
-    int abs(int x);
+    int absolute(int x);
 
-    float abs(float x);
+    float absolute(float x);
 
-    double abs(double x);
+    double absolute(double x);
 
-    int pow(int base, int power);
+    int power(int base, int power);
 }
 
 #endif

@@ -1,6 +1,6 @@
 #include "./math.hpp"
 
-int abs(int x)
+int absolute(int x)
 {
     if (x < 0)
     {
@@ -9,7 +9,7 @@ int abs(int x)
     return x;
 }
 
-float abs(float x)
+float absolute(float x)
 {
     if (x < 0)
     {
@@ -18,7 +18,7 @@ float abs(float x)
     return x;
 }
 
-double abs(double x)
+double absolute(double x)
 {
     if (x < 0)
     {
@@ -27,7 +27,7 @@ double abs(double x)
     return x;
 }
 
-int pow(int base, int power)
+int power(int base, int power)
 {
     int result;
 
